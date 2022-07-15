@@ -36,9 +36,9 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\FlutterUnityIntegration\Editor\Build.cs" />
      <Compile Include="Assets\FlutterUnityIntegration\Editor\XCodePostBuild.cs" />
      <Compile Include="Assets\FlutterUnityIntegration\Editor\SweetShellHelper.cs" />
-     <Compile Include="Assets\FlutterUnityIntegration\Editor\Build.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
